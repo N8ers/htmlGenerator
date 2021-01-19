@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>htmlGenerator</title>
+</head>
+<body>
+
+  <div>
+    <h3>Input</h3>
+    <p>Hello, is it me you're looking for?</p>
+    <button onClick="makeBold()">Bold</button>
+    <br />
+    <div id="inputText" style="width:400px;height:100px;border:1px solid black" contenteditable></div>
+  </div>
+  
+  <div id="tempOutput"></div>
+  <br />
+  
+  <button 
+    style="background-color:limegreen; color:white;"
+    onClick="convert()"
+  >Convert</button>
+  
+  <div>
+    <h3>Output</h3>
+    <div id="outputText"></div>
+  </div>
+  
+</body>
+<script src="index.js"></script>
+</html>
+
+<!-- helpful links -->
+<!-- https://stackoverflow.com/questions/12831101/format-text-in-a-textarea#:~:text=It's%20more%20customizable%2C%20and%20a,content%2C%20not%20for%20rich%20content.&text=The%20scrollbars%20can%20be%20reproduced%20with%20the%20CSS%20overflow%20property.&text=You%20Can't%20style%20the,%3E%20s%2C%20or%20something%20similar. -->
+<!-- https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c#.v0d5rghdl -->
